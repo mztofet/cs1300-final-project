@@ -1,4 +1,4 @@
-/* Reset and base */
+
 * {
   margin: 0;
   padding: 0;
@@ -109,3 +109,12 @@ button:hover {
   color: #00d1ff;
   font-weight: bold;
 }
+body {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+

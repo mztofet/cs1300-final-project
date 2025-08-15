@@ -1,19 +1,48 @@
-<nav>
-  <a href="index.html">Home</a>
-  <a href="mars.html">Mars Photos</a>
-  <a href="earth.html">Earth Imagery</a>
-  <a href="apod.html">APOD</a>
-</nav>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earth Imagery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <nav>...</nav>
-  <h2>Earth Observation</h2>
-  <input id="lat" placeholder="Latitude">
-  <input id="lon" placeholder="Longitude">
-  <input id="date" type="date">
-  <button id="load-earth">Load Image</button>
-  <div id="earth-image"></div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="mars.html">Mars Photos</a>
+    <a href="earth.html">Earth Imagery</a>
+    <a href="apod.html">APOD</a>
+  </nav>
+
+  <main>
+    <h2>Earth Observation</h2>
+    <p> Just pick a date! you never know what you might find!</p>
+   <p>
+  View more EPIC Earth images on NASA’s official site:
+  <a href="https://epic.gsfc.nasa.gov/" target="_blank" rel="noopener noreferrer">
+    epic.gsfc.nasa.gov
+  </a>
+</p>
+    <input id="epic-date" type="date">
+    
+<button id="load-epic">Load EPIC Images</button>
+<div id="earth-image"></div>
+    
+    <div id="earth-image"></div>
+  </main>
+
   <script src="earth.js"></script>
+
+<div id="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+  <img id="modal-img" style="max-width:90%; max-height:90%;" />
+</div>
+
+
 </body>
-<link rel="stylesheet" href="style.css">
+
+
+
+
+</html>
+
+
