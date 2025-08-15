@@ -42,5 +42,14 @@ Interactive Space Weather Dashboard:
 This page should display real-time data about space weather (solar flares, geomagnetic storms, etc.).
 It should use graphs and charts to make the data more understandable. For more information on graphing solutions, look into the ChartJS charting library."
 
-Heres the link to our sites:
+    This project is about promoting the education and awareness of NASA's publicy available data and engage users to enhance their curiosty. Each page has image results from NASA's APIs and associated website like EPIC Earth Images. Our Home page is an intro about us and the purpose of the site. The second page displays photos from the Mars Rover. The third page is a search for Earths imagery by the date as well as a link to EPIC earth images to explore even closer images (even with coordinates). Lastly the page for APOD(Astronomy Picture of the Day); which allows users to pick a date and see what was the most interesting photo Astronymers found. By creating an API key we were able to merge the links assoctied with each page to display images as well as search them.
+
+
+View the deployed project here:  
+ [https://mztofet.github.io/cs1300-final-project/]
+
+github link:
+[https://github.com/mztofet/cs1300-final-project]
+
+
 
