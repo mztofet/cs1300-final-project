@@ -1,4 +1,4 @@
-<script>
+
 
 const API_KEY = 'kJNZ1Ze3U6Yd1JrePehO5LWlK0D9e2IWI9oDB7q8';
 export default API_KEY;
@@ -55,7 +55,7 @@ function displayPhotos(photos, isImageSearch = false) {
     card.appendChild(img);
     photosGrid.appendChild(card);
   });
-}
+
 
 // Fetch Mars Rover Photos
 function fetchMarsPhotos(page = 1) {
@@ -146,4 +146,3 @@ nextPageBtn.addEventListener('click', () => {
 
 // Initial Load or Button Trigger
 document.getElementById('load-btn').addEventListener('click', loadPhotos);
-</script>
