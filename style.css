@@ -22,7 +22,7 @@ p {
   margin-bottom: 15px;
 }
 nav {
-  background-color: #1a1b3a;
+  background-color: maroon;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -34,7 +34,15 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+    transition: text-shadow 0.3s ease;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
 }
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+
 
 nav a:hover {
   color: #ffdd57;
